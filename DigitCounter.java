@@ -6,6 +6,7 @@
             Scanner sc = new Scanner(System.in);
 
             System.out.print("Enter a number: ");
+         
             int number = sc.nextInt();
             int count = 0;
 
