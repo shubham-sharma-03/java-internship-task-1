@@ -2,7 +2,9 @@ import java.util.*;
 public class DayFinderSwitchCase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.print("Enter day number (1-7): ");
+        
         int day = sc.nextInt();
 
         switch (day) {
@@ -15,7 +17,6 @@ public class DayFinderSwitchCase {
             case 7 -> System.out.println("Sunday");
             default -> System.out.println("Invalid Day");
         }
-
         sc.close();
     }
 }
