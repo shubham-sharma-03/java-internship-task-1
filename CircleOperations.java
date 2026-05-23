@@ -16,6 +16,7 @@ public class CircleOperations {
         double radius = sc.nextDouble();
 
         System.out.println("Circumference: " + calculateCircumference(radius));
+        
         System.out.println("Area: " + calculateArea(radius));
 
         sc.close();
