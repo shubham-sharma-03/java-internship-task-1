@@ -10,5 +10,6 @@ public class EvenOddChecker {
 
         System.out.println(number % 2 == 0 ? "Even" : "Odd");
         sc.close();
+        
     }
 }
